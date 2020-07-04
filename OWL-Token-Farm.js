@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         OWL Token Farmer
 // @namespace    https://raw.githubusercontent.com/kaiomm/OWL-Token-Farm/master/OWL-Token-Farm.js
-// @version      0.1
+// @version      0.2
 // @description  refreshes page and autoplay OWL stream
 // @author       kaiomm
 // @match        https://overwatchleague.com/en-us/
