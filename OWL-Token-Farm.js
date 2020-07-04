@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         OWL token farmer
-// @namespace    http://tampermonkey.net/
+// @name         OWL Token Farmer
+// @namespace    https://raw.githubusercontent.com/kaiomm/OWL-Token-Farm/master/OWL-Token-Farm.js
 // @version      0.1
 // @description  refreshes page and autoplay OWL stream
 // @author       kaiomm
