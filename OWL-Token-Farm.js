@@ -5,7 +5,7 @@
 // @description  autofarmer for OWL tokens
 // @author       kaiomm
 // @match        https://overwatchleague.com/*
-// @updateURL    https://raw.githubusercontent.com/kaiomm/OWL-Token-Farm/master/OWL-Token-Farm.js
+// @updateURL    https://github.com/kaiomm/OWL-Token-Farm/raw/master/OWL-Token-Farm.js
 // ==/UserScript==
 
 (function() {
