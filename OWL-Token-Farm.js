@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         OWL Token Farmer
-// @namespace    https://raw.githubusercontent.com/kaiomm/OWL-Token-Farm/master/OWL-Token-Farm.js
-// @version      0.2
-// @description  refreshes page and autoplay OWL stream
+// @namespace    https://github.com/kaiomm
+// @version      0.1
+// @description  autofarmer for OWL tokens
 // @author       kaiomm
-// @match        https://overwatchleague.com/en-us/
-// @grant        none
+// @match        https://overwatchleague.com/*
+// @require      https://raw.githubusercontent.com/kaiomm/OWL-Token-Farm/master/OWL-Token-Farm.js
 // ==/UserScript==
 
 (function() {
