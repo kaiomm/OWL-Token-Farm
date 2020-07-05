@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         OWL Token Farmer
 // @namespace    https://github.com/kaiomm/OWL-Token-Farm
-// @version      0.1.1
+// @version      0.2
 // @description  autofarmer for OWL tokens
 // @author       kaiomm
 // @match        https://overwatchleague.com/*
