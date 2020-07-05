@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         OWL Token Farmer
 // @namespace    https://github.com/kaiomm/OWL-Token-Farm
-// @version      0.3
+// @version      0.3.1
 // @description  autofarmer for OWL tokens
 // @author       kaiomm
 // @match        https://overwatchleague.com/*
@@ -29,7 +29,7 @@
             } else{
                 setTimeout(function(){
                     window.location.reload(1)
-                }, 1800)
+                }, 1800000)
             }
         }
     });
