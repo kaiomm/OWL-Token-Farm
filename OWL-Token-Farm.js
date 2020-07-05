@@ -21,10 +21,16 @@
             }, 3600000);
         } else {
             var time = document.getElementById("__next").children[0].children[0].children[2].children[0].children[1].children[0].children[0].innerText
-            var millis = Number(time.split(':')[0])*3600000 + Number(time.split(':')[1])*60000 + Number(time.split(':')[2])*1000
-            setTimeout(function(){
-                window.location.reload(1)
-            }, millis)
+            if(time){
+                var millis = Number(time.split(':')[0])*3600000 + Number(time.split(':')[1])*60000 + Number(time.split(':')[2])*1000
+                setTimeout(function(){
+                    window.location.reload(1)
+                }, millis)
+            } else{
+                setTimeout(function(){
+                    window.location.reload(1)
+                }, 1800)
+            }
         }
     });
 })();
