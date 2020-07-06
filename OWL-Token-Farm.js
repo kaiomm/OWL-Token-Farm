@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         OWL Token Farmer
 // @namespace    https://github.com/kaiomm/OWL-Token-Farm
-// @version      0.3.1
+// @version      0.4
 // @description  autofarmer for OWL tokens
 // @author       kaiomm
 // @match        https://overwatchleague.com/*
@@ -20,7 +20,10 @@
                 window.location.reload(1);
             }, 3600000);
         } else {
-            var time = document.getElementById("__next").children[0].children[0].children[2].children[0].children[1].children[0].children[0].innerText
+            var time = document.getElementById("__next").children[0].children[0].children[2].children[0].children[1].children[0].children[0].innerText;
+            if (!time){
+                var time = document.getElementById("__next").children[0].children[0].children[1].children[0].children[1].children[0].children[0].innerText;
+            }
             if(time){
                 var millis = Number(time.split(':')[0])*3600000 + Number(time.split(':')[1])*60000 + Number(time.split(':')[2])*1000
                 setTimeout(function(){
