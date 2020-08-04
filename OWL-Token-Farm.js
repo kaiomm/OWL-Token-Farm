@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         OWL Token Farmer
 // @namespace    https://github.com/kaiomm/OWL-Token-Farm
-// @version      0.5
+// @version      0.6
 // @description  autofarmer for OWL tokens
 // @author       kaiomm
 // @match        https://overwatchleague.com/*
@@ -10,6 +10,7 @@
 // ==/UserScript==
 
 (function() {
+    'use strict'
     window.addEventListener('load', function () {
         var iframe = document.getElementById("home-player-id");
         if(iframe){
